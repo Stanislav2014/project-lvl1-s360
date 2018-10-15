@@ -1,0 +1,11 @@
+{
+    "name": "braingames/braingames",
+    "description": "project one on hexlet",
+    "authors": [
+        {
+            "name": "stanislav",
+            "email": "s_admin@Mail.ru"
+        }
+    ],
+    "require": {}
+}
