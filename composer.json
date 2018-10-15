@@ -1,5 +1,8 @@
 {
     "name": "braingames/braingames",
+    "bin":[
+         "bin/brain-games"
+    ],
     "description": "project one on hexlet",
     "authors": [
         {
