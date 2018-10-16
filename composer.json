@@ -11,5 +11,7 @@
             "email": "s_admin@Mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+    "wp-cli/php-cli-tools":"dev-master"
+    }
 }
