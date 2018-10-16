@@ -1,3 +1,7 @@
+### Watch about install package 
+
+on asciinema.org [demo](https://asciinema.org/a/4msXOJgIuwfoQmvuOi1BOJZGT)
+
 ### Installation
 
 * Open terminal
