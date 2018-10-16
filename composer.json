@@ -11,6 +11,9 @@
             "email": "s_admin@Mail.ru"
         }
     ],
+    "autoload": {
+        "files": ["bin/brain-games"]
+    }
     "require": {
     "wp-cli/php-cli-tools":"dev-master"
     }
