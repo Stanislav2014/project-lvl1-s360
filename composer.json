@@ -3,6 +3,7 @@
     "bin":[
          "bin/brain-games"
     ],
+    "keywords":["braingames","hexlet"],
     "description": "project one on hexlet",
     "authors": [
         {
