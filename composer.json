@@ -11,6 +11,9 @@
             "email": "s_admin@Mail.ru"
         }
     ],
+    "scripts": {
+    "phpcs": "phpcs"
+    },
     "autoload": {
         "files": ["src/Cli.php"]
     },
