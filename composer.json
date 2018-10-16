@@ -15,6 +15,6 @@
         "files": ["bin/brain-games"]
     },
     "require": {
-    "wp-cli/php-cli-tools":"dev-master"
+    "wp-cli/php-cli-tools":"*"
     }
 }
