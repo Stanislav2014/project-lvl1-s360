@@ -2,42 +2,33 @@
 
 namespace Braingames\Calc;
 
-use function \cli\line;
-use function \cli\prompt;
+use function \Braingames\Cli\run;
 
-function run()
+const GAMELINE = 'What is the result of the expression?';
+const OPERATORS = ['+','-','*'];
+
+function runCalc()
 {
-    line('Welcome to the Brain Game!');
-    line('What is the result of the expression?');
-    $name = prompt('May I have your name?');
-    $count = 3;
-    for ($i = 1; $i <= $count; $i++) {
-        $randnumber1 = rand(0, 100);
-        $randnumber2 = rand(0, 100);
-        $arr = ['+','-','*'];
-        $randoperator = $arr[array_rand($arr)];
+    $create = function () {
+        $question1 = rand(0, 100);
+        $question2 = rand(0, 100);
+        $randomoperator = OPERATORS[array_rand(OPERATORS)];
 
-        line("question:{$randnumber1} {$randoperator} {$randnumber2}");
-        if ($randoperator == '+') {
-            $result = $randnumber1 + $randnumber2;
-        }
-        if ($randoperator == '-') {
-            $result = $randnumber1 - $randnumber2;
-        }
-        if ($randoperator == '*') {
-            $result = $randnumber1 * $randnumber2;
-        }
+        $question = "question:{$question1} {$randomoperator} {$question2}";
 
-
-        echo $result;
-        $answer = prompt('Your answer');
-
-        if ($answer != $result) {
-            line("{$answer} is wrong answer ;(.");
-            return line("Let's try again, $name!");
+        switch ($randomoperator) {
+            case '+':
+                $answer = $question1 + $question2;
+                break;
+            case '-':
+                $answer = $question1 - $question2;
+                break;
+            case '*':
+                $answer = $question1 * $question2;
+                break;
         }
-      
-        line("Correct!");
-    }
-    line("Congratulations, $name!");
+        return [$question,(string)$answer];
+    };
+
+    run(GAMELINE, $create);
 }
