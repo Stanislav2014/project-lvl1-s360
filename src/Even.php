@@ -5,14 +5,13 @@ namespace Braingames\Even;
 use function \cli\line;
 use function \cli\prompt;
 
-function run() 
+function run()
 {
     line('Welcome to the Brain Game!');
     line('Answer "yes" if number even otherwise answer "no".');
     $name = prompt('May I have your name?');
-    $count = 3; 
-    for ($i = 1; $i <= $count;$i++) {
-
+    $count = 3;
+    for ($i = 1; $i <= $count; $i++) {
         $randnumber = rand(0, 100);
 
         line("question:{$randnumber}");
@@ -34,8 +33,6 @@ function run()
             return line("Let's try again, $name!");
         }
         line("Correct!");
-
     }
     line("Congratulations, $name!");
-
 }

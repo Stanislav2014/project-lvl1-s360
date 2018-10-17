@@ -5,14 +5,13 @@ namespace Braingames\Calc;
 use function \cli\line;
 use function \cli\prompt;
 
-function run() 
+function run()
 {
     line('Welcome to the Brain Game!');
     line('What is the result of the expression?');
     $name = prompt('May I have your name?');
-    $count = 3; 
-    for ($i = 1; $i <= $count;$i++) {
-
+    $count = 3;
+    for ($i = 1; $i <= $count; $i++) {
         $randnumber1 = rand(0, 100);
         $randnumber2 = rand(0, 100);
         $arr = ['+','-','*'];
@@ -39,8 +38,6 @@ function run()
         }
       
         line("Correct!");
-
     }
     line("Congratulations, $name!");
-
 }
