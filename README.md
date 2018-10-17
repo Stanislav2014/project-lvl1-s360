@@ -4,9 +4,9 @@
 
 [![Build Status](https://travis-ci.org/Stanislav2014/project-lvl1-s360.svg?branch=master)](https://travis-ci.com/Stanislav2014/project-lvl1-s360)
 
-### Watch about install package 
+### Watch how work games 
 
-on asciinema.org [demo](https://asciinema.org/a/4msXOJgIuwfoQmvuOi1BOJZGT)
+Watch video on asciinema.org [games video](https://asciinema.org/a/QcWf5TlOXpuOFVAAeMScE3UWP)
 
 ### Installation
 
