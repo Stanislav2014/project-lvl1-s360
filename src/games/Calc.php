@@ -12,9 +12,9 @@ function runCalc()
     $create = function () {
         $question1 = rand(0, 100);
         $question2 = rand(0, 100);
-        $randomoperator = OPERATORS[array_rand(OPERATORS)];
+        $randomOperator = OPERATORS[array_rand(OPERATORS)];
 
-        $question = "{$question1} {$randomoperator} {$question2}";
+        $question = "{$question1} {$randomOperator} {$question2}";
 
         switch ($randomoperator) {
             case '+':

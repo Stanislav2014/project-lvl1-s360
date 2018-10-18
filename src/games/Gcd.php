@@ -20,7 +20,7 @@ function runGcd()
     $create = function () {
         $question1 = rand(0, 100);
         $question2 = rand(0, 100);
-        $question = "question:{$question1} {$question2}";
+        $question = "{$question1} {$question2}";
         $answer = gcd($question1, $question2);
         return [$question,(string)$answer];
     };
