@@ -6,7 +6,8 @@ use function \Braingames\Cli\run;
 
 const GAMELINE = 'Answer "yes" if number even otherwise answer "no".';
 
-function isEven($number) {
+function isEven($number)
+{
     return $number % 2 === 0;
 }
 
