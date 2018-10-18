@@ -14,6 +14,8 @@ Watch video on asciinema.org
 
 [game brain-gcd](https://asciinema.org/a/ZSXlDfRSaQsTOYTk2PwwTqfTe)
 
+[game brain-balance](https://asciinema.org/a/I0klNM4r1bYtBGt3Ky3ZJ17Za)
+
 ### Installation
 
 * Open terminal
