@@ -27,7 +27,7 @@ function runFindInProgressive()
 
         $arr = createProgressive($first, $step, 10);
 
-        $key = rand($first, $length - 1);
+        $key = rand(0, $length - 1);
 
         $arrWithQuestion = $arr;
         $arrWithQuestion[$key] = "..";
