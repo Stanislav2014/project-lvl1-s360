@@ -16,6 +16,8 @@ Watch video on asciinema.org
 
 [game brain-balance](https://asciinema.org/a/I0klNM4r1bYtBGt3Ky3ZJ17Za)
 
+[game brain-progressive](https://asciinema.org/a/rbWirjpnNh8suY9N3k3uZ1W2P)
+
 ### Installation
 
 * Open terminal
