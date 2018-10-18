@@ -16,7 +16,7 @@ function run($description, $generateData)
     for ($i = 1; $i <= COUNT; $i++) {
         [$question, $rightAnswer] = $generateData();
         line("Question: {$question}");
-        $rightAnswer = prompt('Your answer');
+        $userAnswer = prompt('Your answer');
 
         if ($rightAnswer !== $userAnswer) {
             line("{$userAnswer} is wrong answer ;(.Correct answer was {$rightAnswer}.");
