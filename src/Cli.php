@@ -7,19 +7,19 @@ use function \cli\prompt;
 
 const COUNT = 3;
 
-function run($description, $generatedata)
+function run($description, $generateData)
 {
     line('Welcome to the Brain Game!');
     line($description);
     $name = prompt('May I have your name?');
 
     for ($i = 1; $i <= COUNT; $i++) {
-        [$question, $answer] = $generatedata();
+        [$question, $answer] = $generateData();
         line("Question: {$question}");
-        $youranswer = prompt('Your answer');
+        $yourAnswer = prompt('Your answer');
 
-        if ($answer !== $youranswer) {
-            line("{$youranswer} is wrong answer ;(.Correct answer was {$answer}.");
+        if ($answer !== $yourAnswer) {
+            line("{$yourAnswer} is wrong answer ;(.Correct answer was {$answer}.");
             line("Let's try again, $name!");
             return;
         }
