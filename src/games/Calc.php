@@ -18,16 +18,16 @@ function runCalc()
 
         switch ($randomoperator) {
             case '+':
-                $answer = $question1 + $question2;
+                $rightAnswer = $question1 + $question2;
                 break;
             case '-':
-                $answer = $question1 - $question2;
+                $rightAnswer = $question1 - $question2;
                 break;
             case '*':
-                $answer = $question1 * $question2;
+                $rightAnswer = $question1 * $question2;
                 break;
         }
-        return [$question,(string)$answer];
+        return [$question,(string)$rightAnswer];
     };
 
     run(GAMELINE, $create);

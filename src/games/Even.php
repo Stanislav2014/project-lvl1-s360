@@ -17,8 +17,8 @@ function runEven()
 
         $question = rand(0, 100);
 
-        $answer = isEven($question) ? 'yes' : 'no';
-        return [$question, $answer];
+        $rightAnswer = isEven($question) ? 'yes' : 'no';
+        return [$question, $rightAnswer];
     };
 
     run(GAMELINE, $create);

@@ -5,7 +5,8 @@
          "bin/brain-even",
          "bin/brain-calc",
          "bin/brain-gcd",
-         "bin/brain-balance"
+         "bin/brain-balance",
+         "bin/brain-progressive"
 
     ],
     "keywords":["braingames","hexlet"],
@@ -24,7 +25,8 @@
                   "src/games/Even.php",
                   "src/games/Calc.php",
                   "src/games/Gcd.php",
-                  "src/games/Balance.php"
+                  "src/games/Balance.php",
+                  "src/games/Progressive.php"
         ]
     },
     "require": {

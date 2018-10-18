@@ -29,8 +29,8 @@ function runBalance()
     $create = function () {
 
         $question = rand(10, 1000);
-        $answer = balance($question);
-        return [$question, $answer];
+        $rightAnswer = balance($question);
+        return [$question, $rightAnswer];
     };
 
     run(GAMELINE, $create);
