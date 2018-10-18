@@ -15,7 +15,7 @@ function run($description, $generatedata)
 
     for ($i = 1; $i <= COUNT; $i++) {
         [$question, $answer] = $generatedata();
-        line("question:{$question}");
+        line("Question: {$question}");
         $youranswer = prompt('Your answer');
 
         if ($answer !== $youranswer) {

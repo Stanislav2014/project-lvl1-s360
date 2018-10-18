@@ -14,7 +14,7 @@ function runCalc()
         $question2 = rand(0, 100);
         $randomoperator = OPERATORS[array_rand(OPERATORS)];
 
-        $question = "question:{$question1} {$randomoperator} {$question2}";
+        $question = "{$question1} {$randomoperator} {$question2}";
 
         switch ($randomoperator) {
             case '+':
