@@ -6,7 +6,13 @@
 
 ### Watch how work games 
 
-Watch video on asciinema.org [games video](https://asciinema.org/a/QcWf5TlOXpuOFVAAeMScE3UWP)
+Watch video on asciinema.org 
+
+[game brain-even](https://asciinema.org/a/0YhYXABPnpgkfC9D3JzQ8vNsc)
+
+[game brain-calc](https://asciinema.org/a/nGBkeXTTMP1MItxEAGxm1pDFK)
+
+[game brain-gcd](https://asciinema.org/a/ZSXlDfRSaQsTOYTk2PwwTqfTe)
 
 ### Installation
 
