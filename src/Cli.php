@@ -21,7 +21,7 @@ function run($description, $generatedata)
         if ($answer !== $youranswer) {
             line("{$youranswer} is wrong answer ;(.Correct answer was {$answer}.");
             line("Let's try again, $name!");
-            break;
+            return;
         }
         line("Correct!");
     }
