@@ -27,7 +27,6 @@ function balance($number)
 function runBalance()
 {
     $create = function () {
-
         $question = rand(10, 1000);
         $rightAnswer = balance($question);
         return [$question, $rightAnswer];
