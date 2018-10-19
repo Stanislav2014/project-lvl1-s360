@@ -17,15 +17,15 @@ function runCalc()
         $question = "{$question1} {$randomOperator} {$question2}";
 
         switch ($randomOperator) {
-        case '+':
-            $rightAnswer = $question1 + $question2;
-            break;
-        case '-':
-            $rightAnswer = $question1 - $question2;
-            break;
-        case '*':
-            $rightAnswer = $question1 * $question2;
-            break;
+            case '+':
+                $rightAnswer = $question1 + $question2;
+                break;
+            case '-':
+                $rightAnswer = $question1 - $question2;
+                break;
+            case '*':
+                $rightAnswer = $question1 * $question2;
+                break;
         }
         return [$question,(string)$rightAnswer];
     };
