@@ -8,4 +8,4 @@ if (file_exists($autoloadPath1)) {
 } else {
     require_once $autoloadPath2;
 }
-Braingames\Progressive\runFindInProgressive();
+Braingames\Progression\runFindInProgression();
