@@ -11,7 +11,7 @@ function createProgressive($first, $step, $length)
 {
     $arrProgressive = [$first];
 
-    for ($i = 1; $i < $length; $i++) {
+    for ($i = 1; $i < LENGTH; $i++) {
         $arrProgressive[] = $arrProgressive[$i - 1] + $step;
     }
 
@@ -25,10 +25,9 @@ function runFindInProgressive()
         $first = rand(1, 10);
         $step = rand(1, 3);
         
-
         $arr = createProgressive($first, $step, 10);
 
-        $key = rand(0, $length - 1);
+        $key = rand(0, LENGTH - 1);
 
         $arrWithQuestion = $arr;
         $arrWithQuestion[$key] = "..";
