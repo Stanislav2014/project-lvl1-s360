@@ -14,7 +14,7 @@ function isPrime($num)
     return true;
 }
 
-function runEven()
+function runPrime()
 {
     $create = function () {
         $question = rand(0, 100);
