@@ -25,7 +25,7 @@ function runFindInProgressive()
         $first = rand(1, 10);
         $step = rand(1, 3);
         
-        $arrProgressive = createProgressive($first, $step, 10);
+        $arrProgressive = createProgressive($first, $step, LENGTH);
 
         $key = rand(0, LENGTH - 1);
 
