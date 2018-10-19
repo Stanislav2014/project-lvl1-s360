@@ -25,16 +25,16 @@ function runFindInProgressive()
         $first = rand(1, 10);
         $step = rand(1, 3);
         
-        $arr = createProgressive($first, $step, 10);
+        $arrProgressive = createProgressive($first, $step, 10);
 
         $key = rand(0, LENGTH - 1);
 
-        $arrWithQuestion = $arr;
+        $arrWithQuestion = $arrProgressive;
         $arrWithQuestion[$key] = "..";
 
         $question = implode(' ', $arrWithQuestion);
 
-        $rightAnswer = $arr[$key];
+        $rightAnswer = $arrProgressive[$key];
 
         return [$question, (string)$rightAnswer];
     };
