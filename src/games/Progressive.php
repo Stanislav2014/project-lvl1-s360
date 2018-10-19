@@ -5,6 +5,7 @@ namespace Braingames\Progressive;
 use function \Braingames\Cli\run;
 
 const GAMELINE = 'What number is missing in this progression?';
+const LENGTH = 10;
 
 function createProgressive($first, $step, $length)
 {
@@ -23,7 +24,7 @@ function runFindInProgressive()
 
         $first = rand(1, 10);
         $step = rand(1, 3);
-        $length = 10;
+        
 
         $arr = createProgressive($first, $step, 10);
 
