@@ -9,11 +9,11 @@ const LENGTH = 10;
 
 function createProgression($first, $step, $length)
 {
-    for ($i = 1; $i < LENGTH; $i++) {
+    for ($i = 1; $i < $length; $i++) {
         $arrProgression[] = ($first + $step) * $i;
     }
 
-    return($arrProgression);
+    return $arrProgression;
 }
 
 function runFindInProgression()
