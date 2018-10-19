@@ -9,10 +9,8 @@ const LENGTH = 10;
 
 function createProgressive($first, $step, $length)
 {
-    $arrProgressive = [$first];
-
     for ($i = 1; $i < LENGTH; $i++) {
-        $arrProgressive[] = $arrProgressive[$i - 1] + $step;
+        $arrProgressive[] = ($first + $step) * $i;
     }
 
     return($arrProgressive);
