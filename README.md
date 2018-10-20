@@ -21,7 +21,6 @@ Watch video on asciinema.org
 
 [game brain-prime](https://asciinema.org/a/iO8BjkRbSNVy7ouqk2xZp6n1b)
 
-1
 ### Installation
 
 * Open terminal
