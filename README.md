@@ -19,7 +19,7 @@ Watch video on asciinema.org
 
 [game brain-progression](https://asciinema.org/a/rbWirjpnNh8suY9N3k3uZ1W2P)
 
-[game brain-prime](https://asciinema.org/a/gaZd9ir2fQyveeb7lWzsH62ak)
+[game brain-prime](https://asciinema.org/a/iO8BjkRbSNVy7ouqk2xZp6n1b)
 
 ### Installation
 
