@@ -6,7 +6,7 @@ use function \Braingames\Cli\run;
 const GAMELINE = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 function isPrime($num)
 {
-    if ($num < 2) {  
+    if ($num < 2) {
         return false;
     }
     
